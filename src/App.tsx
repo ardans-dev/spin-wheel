@@ -387,7 +387,14 @@ export default function App() {
         )}
       </main>
 
-      <footer className="app-footer"><span /> <span>Spin Wheel</span><span className="footer-rule" /><span>Keputusan kecil, lebih mudah.</span></footer>
+      <footer className="app-footer">
+        <span className="footer-status-dot" />
+        <a href="https://ardans.my.id" className="footer-link">ardans-dev</a>
+        <span className="footer-rule" />
+        <span>Spin Wheel [UTILITY_NODE]</span>
+        <span className="footer-rule" />
+        <span className="footer-stealth">Building in silence</span>
+      </footer>
     </div>
   )
 }

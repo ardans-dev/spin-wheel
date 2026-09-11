@@ -29,7 +29,7 @@ export const APP_CONFIG = {
   // [UI]
   wheel: {
     size: 600,
-    // Wheel boleh lebih ekspresif daripada panel aplikasi, tetap dengan kontras yang aman.
-    colors: ['#08758a', '#2559c7', '#5b43b5', '#963c78', '#a9572d', '#447b3f'],
+    // Cyber-tech palette matching ardans.my.id obsidian theme with high contrast
+    colors: ['#0284c7', '#0891b2', '#4f46e5', '#7c3aed', '#c026d3', '#059669', '#d97706', '#2563eb'],
   },
 } as const
